@@ -1,0 +1,85 @@
+.orange-text-normal {
+    color: #f7652d;
+}
+
+.orange-text {
+    color: #f7652d;
+    position: absolute;
+    top: 90%;
+    left: 56%;
+    font-size: 2pc;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+} 
+
+body {
+    background-color: #0f2437;
+    font-family: "Open Sans", sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+
+    /* left: 50%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust the height if you want to center the image within a specific area */
+}
